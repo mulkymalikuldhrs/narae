@@ -199,7 +199,7 @@ export function Hero() {
                     transition-all duration-700 delay-1000
                     ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'}`}
                 >
-                  <p className="font-serif text-xl md:text-2xl text-charcoal">Rp 25rb</p>
+                  <p className="font-serif text-xl md:text-2xl text-charcoal">Rp 24.900</p>
                   <p className="text-[10px] text-gray-warm uppercase tracking-wider">Mulai dari</p>
                 </div>
 

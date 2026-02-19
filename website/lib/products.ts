@@ -4,72 +4,72 @@ export const products: Product[] = [
   {
     id: 'mini',
     name: 'NARAÈ Mini',
-    description: 'Pengalaman relaksasi pertama yang sempurna untuk dicoba. Ideal untuk perjalanan atau hadiah kecil.',
-    price: 25000,
+    description: 'Paket pemula dengan harga terjangkau. Psikologi harga entry-level membuat pembelian terasa ringan dan impulsif. Ideal untuk menarik pelanggan baru yang ingin mencoba.',
+    price: 24900,
     size: 'Mini',
     weight: '30g',
     image: '/images/product-mini.svg',
     features: [
+      'Entry price, coba-coba',
       'Cukup untuk 1x penggunaan',
       'Kemasan sachet praktis',
-      'Aroma terapi premium',
       'Ideal untuk perjalanan'
     ],
     ingredients: [
-      'Epsom Salt',
-      'Dead Sea Salt',
-      'Essential Oils',
-      'Dried Flowers'
+      'Garam Epsom murni',
+      'Bunga lavender kering',
+      'Bunga chamomile kering',
+      'Essential oils premium'
     ],
-    scent: 'Lavender' // Chamomile variant coming soon
+    scent: 'Lavender & Chamomile'
   },
   {
     id: 'medium',
     name: 'NARAÈ Medium',
-    description: 'Pilihan populer untuk penggunaan rutin. Memberikan relaksasi mendalam setelah hari yang panjang.',
-    price: 50000,
+    description: 'Paket standar dengan harga menengah. Menunjukkan nilai lebih (setara spa di rumah) tanpa terlalu tinggi. Pilihan populer untuk penggunaan rutin.',
+    price: 49900,
     size: 'Medium',
     weight: '100g',
     image: '/images/product-medium.svg',
     features: [
+      'Nilai standar, populer',
       'Cukup untuk 3-4x penggunaan',
-      'Resealable pouch',
-      'Kualitas premium',
+      'Resealable pouch matte',
       'Paling banyak dibeli'
     ],
     ingredients: [
-      'Epsom Salt',
-      'Dead Sea Salt',
-      'Essential Oils',
-      'Dried Flowers',
+      'Garam Epsom murni',
+      'Bunga lavender kering',
+      'Bunga chamomile kering',
+      'Essential oils premium',
       'Vitamin E'
     ],
-    scent: 'Lavender' // Chamomile variant coming soon
+    scent: 'Lavender & Chamomile'
   },
   {
     id: 'premium',
     name: 'NARAÈ Premium',
-    description: 'Pengalaman spa mewah di rumah. Ukuran besar untuk sesi relaksasi berkualitas tinggi.',
-    price: 99000,
+    description: 'Paket terbaik dengan kemasan eksklusif termasuk dus kecil dan sendok kayu. Strategi harga aspirasi menarik pelanggan yang mencari kemewahan. Cocok sebagai hadiah.',
+    price: 99900,
     size: 'Premium',
     weight: '250g',
     image: '/images/product-premium.svg',
     features: [
+      'Eksklusif, sebagai hadiah',
       'Cukup untuk 8-10x penggunaan',
-      'Kemasan eksklusif',
-      'Bonus wooden spoon',
-      'Premium gift box'
+      'Kemasan dus kecil premium',
+      'Bonus sendok kayu mini'
     ],
     ingredients: [
-      'Epsom Salt',
-      'Dead Sea Salt',
+      'Garam Epsom murni',
       'Himalayan Pink Salt',
-      'Premium Essential Oils',
-      'Organic Dried Flowers',
+      'Bunga lavender kering',
+      'Bunga chamomile kering',
+      'Premium essential oils',
       'Vitamin E',
       'Jojoba Oil'
     ],
-    scent: 'Lavender' // Chamomile variant coming soon
+    scent: 'Lavender & Chamomile'
   }
 ]
 

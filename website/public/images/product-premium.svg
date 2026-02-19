@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <defs>
+    <linearGradient id="bgGradientPrem" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F0E8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FAF8F4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EDE8E0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4C4A8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#C9B896;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8A784;stop-opacity:1" />
+    </linearGradient>
+    <filter id="premiumShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#C9B896" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="500" height="600" fill="url(#bgGradientPrem)" rx="16"/>
+  
+  <!-- EXCLUSIVE Badge -->
+  <rect x="160" y="35" width="180" height="32" rx="16" fill="url(#goldGradient)" filter="url(#premiumShadow)"/>
+  <text x="250" y="57" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#FFFFFF" letter-spacing="2">EXCLUSIVE</text>
+  
+  <!-- Premium Box -->
+  <rect x="100" y="110" width="300" height="320" rx="8" fill="#FFFFFF" stroke="#C9B896" stroke-width="3" filter="url(#premiumShadow)"/>
+  
+  <!-- Box lid -->
+  <rect x="90" y="80" width="320" height="40" rx="4" fill="url(#goldGradient)"/>
+  <rect x="85" y="75" width="330" height="50" rx="6" fill="none" stroke="#C9B896" stroke-width="2"/>
+  
+  <!-- Gold ribbon vertical -->
+  <rect x="235" y="110" width="30" height="320" fill="url(#goldGradient)" opacity="0.8"/>
+  
+  <!-- Gold ribbon horizontal -->
+  <rect x="100" y="255" width="300" height="30" fill="url(#goldGradient)" opacity="0.8"/>
+  
+  <!-- Center ribbon knot -->
+  <circle cx="250" cy="270" r="25" fill="url(#goldGradient)"/>
+  
+  <!-- Spoon illustration -->
+  <rect x="380" y="450" width="80" height="20" rx="10" fill="url(#goldGradient)"/>
+  <ellipse cx="470" cy="460" rx="25" ry="30" fill="none" stroke="#C9B896" stroke-width="3"/>
+  <ellipse cx="470" cy="460" rx="20" ry="25" fill="#E8DFE8" opacity="0.3"/>
+  
+  <!-- Spoon label -->
+  <text x="420" y="500" text-anchor="middle" font-family="'Inter', sans-serif" font-size="11" fill="#9B8AA0">+ Wooden Spoon</text>
+  
+  <!-- Decorative corner elements -->
+  <circle cx="130" cy="430" r="15" fill="#E8DFE8" opacity="0.5"/>
+  <circle cx="370" cy="430" r="15" fill="#E8DFE8" opacity="0.5"/>
+  
+  <!-- Brand text -->
+  <text x="250" y="520" text-anchor="middle" font-family="'Cormorant Garamond', 'Playfair Display', serif" font-size="36" font-weight="600" fill="#2D2D2D">NARAÈ</text>
+  <text x="250" y="550" text-anchor="middle" font-family="'Inter', sans-serif" font-size="18" fill="#6B6B6B">Premium Collection</text>
+  <text x="250" y="580" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="500" fill="#C9B896">250g</text>
+</svg>

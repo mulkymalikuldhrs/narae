@@ -155,3 +155,9 @@ Sistem Kerja: Buat jadwal rutinitas: misalnya Senin-Rabu produksi & packing, Kam
 Mindset: Tetapkan tujuan jangka pendek yang jelas (misal target penjualan mingguan) dan patuhi deadlinenya. Ingatlah pentingnya keseimbangan: hindari bekerja terus-menerus sehingga jatuh burnout. Sisihkan waktu untuk istirahat (setidaknya sehari penuh tanpa pekerjaan). Jika mengalami kejenuhan, ambil jeda singkat atau cari inspirasi (misal belajar resep baru di waktu luang). Gabung komunitas online/Offline agar terinspirasi dan tidak merasa sendiri sebagai solopreneur.
 
 Dengan disiplin dan alat yang tepat, seorang solo founder dapat menjalankan bisnis NARAÈ secara efisien tanpa tim besar. Kuncinya adalah perencanaan keuangan yang rapi, rutinitas kerja terorganisasi, serta menjaga kesehatan dan semangat agar bisnis berkelanjutan
+
+---
+
+> **Contact:** Mulky Malikul Dhaher — [mulkymalikuldhaher@email.com](mailto:mulkymalikuldhaher@email.com)
+>
+> **Disclaimer:** This project is for Education Purpose only. Risiko apapun tidak kita tanggung. (We are not responsible for any risks or damages.)

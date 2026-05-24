@@ -1,83 +1,113 @@
-# Contributing to NARAÈ
+# 🤝 Contributing to NARAÈ
 
-Terima kasih atas minat Anda untuk berkontribusi pada proyek NARAÈ! Dokumen ini menyediakan panduan untuk kontribusi.
-
----
-
-## 🚀 Memulai
-
-1. Fork repositori
-2. Clone fork Anda (`git clone https://github.com/YOUR-USERNAME/narae.git`)
-3. Buat branch fitur (`git checkout -b feature/amazing-feature`)
-4. Buat perubahan Anda
-5. Commit menggunakan conventional commits (`git commit -m "feat: add amazing feature"`)
-6. Push ke fork Anda (`git push origin feature/amazing-feature`)
-7. Buka Pull Request
+Thank you for your interest in contributing to NARAÈ! This document provides guidelines for contributions.
 
 ---
 
-## 🎨 Panduan Desain
+## ⚠️ Disclaimer
 
-NARAÈ menggunakan desain **clean neutral luxury**. Saat berkontribusi pada komponen UI, harap ikuti prinsip desain berikut:
-
-- **Warna**: Gunakan palet warna yang konsisten (Cream, Gold, Charcoal, Lavender)
-- **Tipografi**: Cormorant Garamond untuk heading, Inter untuk body text
-- **Efek**: Glassmorphism dengan backdrop blur, animasi halus
-- **Responsif**: Semua komponen harus responsif untuk mobile-first
-
----
-
-## 📝 Format Pesan Commit
-
-Kami menggunakan [Conventional Commits](https://www.conventionalcommits.org/):
-
-- `feat:` - Fitur baru
-- `fix:` - Perbaikan bug
-- `docs:` - Perubahan dokumentasi
-- `style:` - Perubahan gaya kode (formatting)
-- `refactor:` - Refactoring kode
-- `test:` - Menambah atau memperbarui test
-- `chore:` - Tugas pemeliharaan
+> **For Education Purpose Only**
+> This project is provided strictly for educational and research purposes. The authors and contributors assume **no responsibility or liability** for any damages, losses, or risks arising from the use of this software. **We do not bear any responsibility or risk** for how this software is used.
+>
+> **Risk Disclaimer:** This project is for demonstration and educational purposes only. Use at your own risk.
+>
+> **Contact:** Mulky Malikul Dhaher | mulkymalikuldhaher@email.com
 
 ---
 
-## 🧪 Testing
+## 🇬🇧 English
 
-Sebelum mengirim PR:
+### 🚀 Getting Started
+
+1. **Fork** the repository
+2. Create a **feature branch** (`git checkout -b feature/amazing-feature`)
+3. **Commit** your changes (`git commit -m 'feat: add amazing feature'`)
+4. **Push** to the branch (`git push origin feature/amazing-feature`)
+5. Open a **Pull Request**
+
+### 📝 Commit Message Format
+
+We use [Conventional Commits](https://www.conventionalcommits.org/):
+
+- `feat:` - New feature
+- `fix:` - Bug fix
+- `docs:` - Documentation changes
+- `style:` - Code style changes
+- `refactor:` - Code refactoring
+- `test:` - Adding or updating tests
+- `chore:` - Maintenance tasks
+
+### 🧪 Testing
+
+Before submitting a PR:
 
 ```bash
-cd website
-npm run build    # Pastikan build berhasil
-npm run lint     # Pastikan linting lulus
+npm run build    # Ensure build passes
+npm run lint     # Ensure linting passes
 ```
 
----
+### 🐛 Reporting Issues
 
-## 🐛 Melaporkan Masalah
+When reporting an issue, please include:
 
-Saat melaporkan masalah, harap sertakan:
+- Clear description of the problem
+- Steps to reproduce
+- Expected vs actual behavior
+- Browser and device used
+- Screenshots if possible
 
-- Deskripsi yang jelas tentang masalah
-- Langkah-langkah untuk mereproduksi
-- Perilaku yang diharapkan vs aktual
-- Browser dan perangkat yang digunakan
-- Screenshot jika memungkinkan
+### 🎯 Contribution Areas
 
----
-
-## 📋 Proses Code Review
-
-1. Semua PR memerlukan review sebelum digabungkan
-2. Build harus berhasil
-3. Tidak ada error linting
-4. Perubahan visual harus disertai screenshot
+- **New Features**: New sections, components, or integrations
+- **Bug Fixes**: Fixing bugs reported in Issues
+- **Documentation**: Improving guides and docs
+- **Translations**: Translations to additional languages
+- **UI/UX**: Interface and user experience improvements
 
 ---
 
-## 🙏 Terima Kasih!
+## 🇮🇩 Bahasa Indonesia
 
-Setiap kontribusi membantu membuat NARAÈ lebih baik!
+### 🚀 Memulai
+
+1. **Fork** repositori
+2. Buat **branch fitur** (`git checkout -b feature/amazing-feature`)
+3. **Commit** perubahan Anda (`git commit -m 'feat: add amazing feature'`)
+4. **Push** ke branch (`git push origin feature/amazing-feature`)
+5. Buka **Pull Request**
+
+### 🎯 Area Kontribusi
+
+- **Fitur Baru**: Bagian, komponen, atau integrasi baru
+- **Bug Fix**: Perbaikan bug yang dilaporkan dalam Issues
+- **Dokumentasi**: Peningkatan panduan dan dokumentasi
+- **Terjemahan**: Terjemahan ke bahasa tambahan
+- **UI/UX**: Peningkatan antarmuka dan pengalaman pengguna
 
 ---
 
-**Kontak**: [mulkymalikuldhaher@email.com](mailto:mulkymalikuldhaher@email.com)
+## 🇨🇳 中文
+
+### 🚀 快速开始
+
+1. **Fork** 本仓库
+2. 创建**功能分支** (`git checkout -b feature/amazing-feature`)
+3. **提交**您的更改 (`git commit -m 'feat: add amazing feature'`)
+4. **推送**到分支 (`git push origin feature/amazing-feature`)
+5. 创建 **Pull Request**
+
+---
+
+## 🔒 Security
+
+Please report security vulnerabilities privately to [mulkymalikuldhaher@email.com](mailto:mulkymalikuldhaher@email.com). Do not open public issues for security vulnerabilities.
+
+---
+
+## 🙏 Thank You!
+
+Every contribution helps make NARAÈ better!
+
+---
+
+**Contact:** [mulkymalikuldhaher@email.com](mailto:mulkymalikuldhaher@email.com)

@@ -56,6 +56,13 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-**Author:** Mulky Malikul Dhaher  
-**Email:** mulkymalikuldhr@mail.com  
-**WhatsApp:** +6285322624048
+**Author:** Mulky Malikul Dhaher
+**Email:** mulkymalikuldhaher@email.com
+
+---
+
+> **Disclaimer (EN):** For Education Purpose Only. The authors and contributors assume no responsibility or liability for any damages, losses, or risks arising from the use of this software.
+>
+> **Disclaimer (ID):** Hanya untuk Tujuan Pendidikan. Penulis dan kontributor tidak bertanggung jawab atas risiko atau kerugian apa pun yang timbul dari penggunaan perangkat lunak ini.
+>
+> **Disclaimer (CN):** 仅用于教育目的。作者和贡献者对因使用本软件而造成的任何损失、损害或后果不承担任何责任。

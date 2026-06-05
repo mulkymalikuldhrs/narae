@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -26,10 +27,12 @@ export const metadata: Metadata = {
   title: "NARAÈ | Bath Soak Aromaterapi Premium",
   description: "Tenangkan pikiran, manjakan diri. Bath soak aromaterapi premium lokal dengan bahan alami.",
   keywords: ["bath soak", "aromaterapi", "garam mandi", "relaksasi", "spa", "mandi", "essential oil", "indonesia"],
+  authors: [{ name: "Mulky Malikul Dhaher" }],
   openGraph: {
     title: "NARAÈ | Bath Soak Aromaterapi Premium",
     description: "Tenangkan pikiran, manjakan diri. Bath soak aromaterapi premium lokal dengan bahan alami.",
     type: "website",
+    locale: "id_ID",
   },
 };
 
@@ -43,7 +46,9 @@ export default function RootLayout({
       <body
         className={`${cormorant.variable} ${inter.variable} ${playfair.variable} antialiased bg-white`}
       >
-        {children}
+        <ErrorBoundary>
+          {children}
+        </ErrorBoundary>
       </body>
     </html>
   );

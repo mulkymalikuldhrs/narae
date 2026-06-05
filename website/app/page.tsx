@@ -5,19 +5,34 @@ import { Benefits } from '@/components/Benefits'
 import { Testimonials } from '@/components/Testimonials'
 import { Gallery } from '@/components/Gallery'
 import { Footer } from '@/components/Footer'
+import { ErrorBoundary } from '@/components/ErrorBoundary'
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <main>
-        <Hero />
-        <ProductGrid />
-        <Benefits />
-        <Testimonials />
-        <Gallery />
+      <ErrorBoundary>
+        <Header />
+      </ErrorBoundary>
+      <main role="main">
+        <ErrorBoundary>
+          <Hero />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <ProductGrid />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Benefits />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Testimonials />
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Gallery />
+        </ErrorBoundary>
       </main>
-      <Footer />
+      <ErrorBoundary>
+        <Footer />
+      </ErrorBoundary>
     </>
   )
 }

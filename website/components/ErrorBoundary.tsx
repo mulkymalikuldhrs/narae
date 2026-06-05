@@ -52,11 +52,7 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
             <p className="text-gray-warm text-sm mb-2">
               Aplikasi mengalami error yang tidak terduga. Silakan coba lagi.
             </p>
-            {this.state.error && (
-              <p className="text-charcoal/40 text-xs mb-6 font-mono">
-                {this.state.error.message}
-              </p>
-            )}
+            {/* Error details hidden in production to prevent information disclosure */}
             <button
               onClick={this.handleRetry}
               className="px-8 py-3 bg-charcoal text-cream rounded-full text-sm font-bold tracking-wider uppercase hover:bg-charcoal/90 transition-colors"

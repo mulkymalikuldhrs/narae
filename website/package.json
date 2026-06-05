@@ -27,8 +27,7 @@
     "typescript": "^5"
   },
   "description": "NARAÈ Bath Soak E-commerce Website - Premium Aromatherapy Experience",
-  "main": "index.js",
   "keywords": ["nextjs", "react", "ecommerce", "aromatherapy"],
-  "author": "",
-  "license": "ISC"
+  "author": "Mulky Malikul Dhaher",
+  "license": "MIT"
 }

@@ -17,8 +17,8 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0.x   | ✅ Yes             |
-| < 1.0   | ❌ No              |
+| 2.0.x  | ✅ Yes             |
+| < 2.0   | ❌ No              |
 
 ### Reporting a Vulnerability
 
@@ -46,8 +46,8 @@ We will acknowledge your report within 48 hours and provide a detailed response 
 
 | Versi | Didukung            |
 | ----- | ------------------- |
-| 1.0.x | ✅ Ya               |
-| < 1.0 | ❌ Tidak            |
+| 2.0.x | ✅ Ya               |
+| < 2.0 | ❌ Tidak            |
 
 ### Melaporkan Kerentanan
 
@@ -68,8 +68,8 @@ Jika Anda menemukan kerentanan keamanan, **JANGAN** membuka issue publik. Sebaga
 
 | 版本 | 支持              |
 | ---- | ----------------- |
-| 1.0.x | ✅ 是            |
-| < 1.0 | ❌ 否            |
+| 2.0.x | ✅ 是            |
+| < 2.0 | ❌ 否            |
 
 ### 报告漏洞
 

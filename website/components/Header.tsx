@@ -86,7 +86,9 @@ export function Header() {
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="md:hidden p-3 rounded-full bg-cream text-charcoal
                 hover:bg-lavender transition-colors duration-300"
-              aria-label="Toggle menu"
+              aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
@@ -96,8 +98,10 @@ export function Header() {
 
       {/* Mobile Menu */}
       <div
+        id="mobile-menu"
         className={`fixed inset-0 z-40 bg-charcoal/95 backdrop-blur-2xl md:hidden
           transition-all duration-500 ${mobileMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+        aria-hidden={!mobileMenuOpen}
       >
         <div className="container-luxury pt-32 pb-12 flex flex-col h-full">
           <nav className="flex flex-col gap-2">

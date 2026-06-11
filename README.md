@@ -103,6 +103,107 @@ narae/
 └── public/               # Static assets & product images
 ```
 
+## Visual Architecture
+
+### E-Commerce Flow
+
+```mermaid
+flowchart LR
+    subgraph "Browse"
+        A["Home Page"] --> B["Product Catalog"]
+        B --> C["Product Detail"]
+        C --> D["Scent Profile Guide"]
+    end
+
+    subgraph "Cart"
+        D --> E["Add to Cart"]
+        E --> F["Review Cart"]
+        F --> G["Adjust Quantities"]
+    end
+
+    subgraph "Checkout"
+        G --> H["Shipping Info"]
+        H --> I["Payment - Stripe"]
+    end
+
+    subgraph "Complete"
+        I --> J["Order Confirmed"]
+        J --> K["Tracking & Updates"]
+    end
+
+    style A fill:#1a2d1a,color:#a3e635
+    style I fill:#635bff,color:#fff
+    style J fill:#22c55e,color:#fff
+```
+
+### Scent Profile Guide
+
+```mermaid
+flowchart TB
+    subgraph "Quiz Experience"
+        Start["Start Scent Quiz"] --> Q1["Q1: Mood Preference"]
+        Q1 --> Q2["Q2: Environment"]
+        Q2 --> Q3["Q3: Scent Intensity"]
+        Q3 --> Q4["Q4: Season & Occasion"]
+    end
+
+    subgraph "Matching Engine"
+        Q4 --> Analyze["Analyze Responses"]
+        Analyze --> Match["Match Scent Profiles"]
+        Match --> Rank["Rank Product Fits"]
+    end
+
+    subgraph "Recommendation"
+        Rank --> Primary["Primary Recommendation"]
+        Rank --> Secondary["Alternative Scents"]
+        Rank --> Bundle["Curated Bundle Suggestion"]
+    end
+
+    style Start fill:#2a402a,color:#bef264
+    style Analyze fill:#1a2d1a,color:#a3e635
+    style Primary fill:#22c55e,color:#fff
+```
+
+### Architecture - Lightweight Next.js + Stripe Stack
+
+```mermaid
+graph TB
+    subgraph "Frontend - Next.js 16"
+        App["App Router"]
+        Pages["Page Components"]
+        Zustand["Zustand Store"]
+        TW["Tailwind CSS 4"]
+    end
+
+    subgraph "E-Commerce Layer"
+        Catalog["Product Catalog"]
+        Cart["Shopping Cart"]
+        Stripe["Stripe Checkout"]
+    end
+
+    subgraph "Static / Hosting"
+        SSG["Static Site Generation"]
+        CDN["CDN Delivery"]
+    end
+
+    App --> Pages
+    Pages --> Zustand
+    Pages --> TW
+    Catalog --> Cart
+    Cart --> Stripe
+    App --> SSG
+    SSG --> CDN
+
+    style App fill:#000,color:#fff
+    style Zustand fill:#764abc,color:#fff
+    style Stripe fill:#635bff,color:#fff
+    style TW fill:#06B6D4,color:#fff
+```
+
+> **Stack Note**: Narae uses a deliberately lighter stack than typical e-commerce apps — no Prisma ORM, no Radix UI, no heavy component library. Next.js 16 handles SSR/SSG, Zustand manages cart state, and Tailwind CSS 4 provides styling. Stripe handles checkout via hosted payment flow.
+
+---
+
 ## Contributing
 
 1. Fork the repository

@@ -1,4 +1,3 @@
-<img src="docs/banner.png" width="100%">
 
 <!-- CAPSULE-RENDER HEADER -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1a0a,50:1a2d1a,100:2a402a&fontColor=a3e635&descColor=bef264&height=220&section=header&text=Narae&fontSize=70&desc=Aromatherapy%20Brand%20Website&animation=fadeIn" />
